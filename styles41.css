@@ -1,0 +1,176 @@
+.main-box
+{
+    width: 800px; height: 500px; background-color: burlywood;
+}
+
+.body-box
+{
+    height: 320px; background-color: #e3f0f5; display: flex; align-items: center; justify-content: center;
+}
+
+.header
+{
+    height: 180px; background-color: #009de6;
+}
+
+.mini-nav
+{
+    height: 50px; background-color: #009de6; display: flex; justify-content: flex-end; align-items: center; text-align: center;
+}
+
+.mini-nav img
+{
+    width: 40px; border-radius: 25px;
+}
+
+.mini-nav i
+{
+    color: white; margin-right: 20px; font-size: 20px;
+}
+
+.mini-nav span
+{
+    color: grey; font-size: 20px; margin-right: 20px;
+}
+
+.mini-nav a
+{
+    text-decoration: none; color: rgb(230, 230, 230);
+}
+
+.mini-div
+{
+    height: 50px; display: flex; justify-content: flex-end; align-items: center; text-align: center; margin-right: 20px;
+}
+
+.next-box
+{
+    background-color: #009de6; height: 70px; display: flex; justify-content: space-between;
+}
+
+.next-box span
+{
+    color: white; font-weight: bold; font-size: 30px;
+}
+
+.next-box button
+{
+    color: white; background-color: #009de6; border-radius: 8px; padding: 7px; border: 2px solid white; margin-right: 20px;
+}
+
+.next-box button:hover
+{
+    transform: scale(1.2);
+
+    cursor: pointer;
+}
+
+.next-box i
+{
+    color: white; font-size: 20px;
+}
+
+.limit
+{
+    height: 70px; width: 210px; display: inline-block; padding: 14px;
+}
+
+.limit-1
+{
+    height: 65px; width: 150px; display: inline-block; padding: 17px;
+}
+
+.next-box-1
+{
+    height: 50px; background-color: #009de6;
+}
+
+.next-box-1 div
+{
+   height: 50px; padding: 20px; color: white; font-size: 17px; font-weight: bold;
+}
+
+hr
+{
+    border: 4px solid rgb(255, 255, 255); border-radius: 8px; margin-right: 722px;
+}
+
+.large-div
+{
+    width: 700px; height: 250px; background-color: chartreuse; border-radius: 10px;
+}
+
+.in-large-div
+{
+    height: 50px; background-color: firebrick; position: relative; border-radius: 10px 10px 0 0;
+}
+
+.in-large-div i
+{
+    font-size: 25px;
+}
+
+.in-large-div i:hover
+{   
+    cursor: pointer; transform: scale(1.4);
+}
+
+.btn-style-2
+{
+    width: 700px; height: 50px; position: relative; border-radius: 8px 8px 0 0; border: 1px solid grey;
+}
+
+.btn-style
+{
+    width: 80px !important; height: 35px !important; color: white; font-weight: bold; background-color: #009de6; border: none; border-radius: 8px; padding: 5px; position: absolute; left: 570px; bottom: 7px;
+}
+
+.btn-style:hover
+{
+    cursor: pointer;
+
+    transform: scale(1.2);
+}
+
+.glass-pos
+{
+    position: absolute; left: 10px; bottom: 10px;
+}
+
+.in-large-div input
+{
+    width: 500px; height: 40px; position: absolute; left: 50px; top: 1px; border: none; background-color: #f0f0f0; font-size: 16px; border-radius: 8px 8px 0 0;
+}
+
+.in-large-div-1
+{
+    background-color: rgb(255, 255, 255); height: 200px; display: flex; justify-content: center; align-items: center; border-radius: 0 0 8px 8px; border: 1px solid grey; border-top: none;
+}
+
+.in-large-div-1 span
+{
+    font-size: 20px; color: rgb(173, 173, 173);
+}
+
+.refresh-style
+{
+    position: absolute; left: 660px; bottom: 10px;
+}
+
+input:focus
+{
+    outline: none; border: none; box-shadow: none
+}
+
+input:hover
+{
+    background-color: #f0f0f0;
+}
+
+input::placeholder 
+{
+    font-size: 15px;  
+    
+    color: gray;       
+}
+

@@ -1,0 +1,50 @@
+.main-box
+{
+    width: 610px;
+
+    height: 150px;
+
+    background-color: rgb(226, 221, 221);
+
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+button
+{
+    width: 150px;
+
+    height: 50px;
+
+    padding: 15px;
+
+    margin: 7px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #3599db;
+
+    color: white;
+
+    font-size: 15px;
+
+    flex: 1;
+}
+
+button:nth-child(-n+4) /* Chọn phần từ từ 1 đến 4 vì n bắt đầu từ 0 và tăng lên */
+{
+    flex-basis: calc(20% - 10px);
+}
+
+button:nth-child(5) 
+{
+    flex-basis: calc(49% - 10px);
+}
+
+button:nth-child(6), button:nth-child(7) 
+{
+    flex-basis: calc(24% - 10px);
+}
